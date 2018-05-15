@@ -9,6 +9,17 @@ wake up redis in docker
 docker run --name redis -d -p 6379:6379 redis redis-server --appendonly yes
 ```
 
+#### API
+Book
+* Register
+```$xslt
+book/register
+```
+* get 
+```$xslt
+book/{isbnCode}
+```
+
 #### DB
 ```
 Book hashmap
